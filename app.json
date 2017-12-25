@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/main/index",
+    "pages/cart/cart"
+  ],
+  "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "派鲜商城",
+      "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+        {
+          "selectedIconPath": "images/tabBar/main_active.png",
+          "iconPath": "images/tabBar/main.png",
+          "pagePath": "pages/main/index",
+          "text": "首页"
+        },
+        {
+          "selectedIconPath": "images/tabBar/cart_active.png",
+          "iconPath": "images/tabBar/cart.png",
+          "pagePath": "pages/logs/logs",
+          "text": "购物车"
+        },
+        {
+          "selectedIconPath": "images/tabBar/user_active.png",
+          "iconPath": "images/tabBar/user.png",
+          "pagePath": "pages/cart/cart",
+          "text": "开心测试"
+        }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

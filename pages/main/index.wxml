@@ -1,0 +1,61 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="wxSearch-section">
+    <view class="wxSearch-pancel">
+      <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder="搜索" />
+      <button class="wxSearch-button" bindtap="wxSearchFn" size="mini" plain="true">搜索</button>
+    </view>
+  </view>
+</form>
+
+
+  <scroll-view scroll-x="true"  scroll-with-animation="true" class='topbar'>
+    <view class='topbar__item'>特价</view>
+    <view class='topbar__item'>鲜果</view>
+    <view class='topbar__item'>熟食</view>
+    <view class='topbar__item'>火锅</view>
+    <view class='topbar__item topbar__item_active'>零食</view>
+    <view class='topbar__item'>折扣</view>
+    <view class='topbar__item'>鲜果</view>
+    <view class='topbar__item'>熟食</view>
+    <view class='topbar__item'>火锅</view>
+  </scroll-view>
+
+
+
+
+
+
+<scroll-view class="page-body" scroll-y="true">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">image</text>
+    <text class="page__desc">图片</text>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap" wx:for="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+</scroll-view>
+
+
+
+
+
+
+
