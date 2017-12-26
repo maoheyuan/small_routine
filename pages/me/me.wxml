@@ -1,0 +1,150 @@
+<view class='header'>
+  <view class='user_info'>
+     <image  class="user__info__image"style="" src="/images/test/143912755726.jpg"></image> 毛何远
+  </view>
+  <view class='header-tip'>
+  </view>
+</view>
+<view class='page_body'>
+
+
+ <view class='body_list_group'>
+    <view class='body_list_group_title'>
+      <text class='body_list_group_title_left'>我的订单</text>
+      <text class='body_list_group_title_right'>全部订单></text>
+    </view>
+
+    <view class='body_list_group_body'>
+    <view class='body_list_block'>
+       <view class='body_list_block_image'>
+          <image  class="user__info__image"style="" src="/images/test/143912755726.jpg"></image> 
+       </view>
+       <view  class='body_list_block_title'>
+          待付款
+       </view>
+    </view>
+
+        <view class='body_list_block'>
+       <view class='body_list_block_image'>
+          <image  class="user__info__image"style="" src="/images/test/143912755726.jpg"></image> 
+       </view>
+       <view  class='body_list_block_title'>
+          待收货
+       </view>
+    </view>
+
+        <view class='body_list_block'>
+       <view class='body_list_block_image'>
+          <image  class="user__info__image"style="" src="/images/test/143912755726.jpg"></image> 
+       </view>
+       <view  class='body_list_block_title'>
+          待评价
+       </view>
+    </view>
+
+        <view class='body_list_block'>
+       <view class='body_list_block_image'>
+          <image  class="user__info__image"style="" src="/images/test/143912755726.jpg"></image> 
+       </view>
+       <view  class='body_list_block_title'>
+          退换货
+       </view>
+    </view>
+    </view>
+  
+  </view>
+
+  <view class='body_list_group'>
+    <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+  </view>
+
+
+
+
+  <view class='body_list_group'>
+    <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+
+      <view class='body_list_row'>
+      <view class='body_list_row_left'>
+        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 我的订单
+      </view>
+      <text class='body_list_row_right'>></text>
+    </view>
+  </view>
+
+
+
+</view>
+
+

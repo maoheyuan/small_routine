@@ -1,35 +1,36 @@
 {
   "pages": [
+    "pages/me/me",
     "pages/cart/cart",
     "pages/main/index"
     
   ],
   "window": {
-      "backgroundTextStyle": "light",
-      "navigationBarBackgroundColor": "#fff",
-      "navigationBarTitleText": "派鲜商城",
-      "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "派鲜商城",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
-        {
-          "selectedIconPath": "images/tabBar/main_active.png",
-          "iconPath": "images/tabBar/main.png",
-          "pagePath": "pages/main/index",
-          "text": "首页"
-        },
-        {
-          "selectedIconPath": "images/tabBar/cart_active.png",
-          "iconPath": "images/tabBar/cart.png",
-          "pagePath": "pages/cart/cart",
-          "text": "购物车"
-        },
-        {
-          "selectedIconPath": "images/tabBar/user_active.png",
-          "iconPath": "images/tabBar/user.png",
-          "pagePath": "pages/cart/cart",
-          "text": "开心测试"
-        }
+      {
+        "selectedIconPath": "images/tabbar/main_active.png",
+        "iconPath": "images/tabbar/main.png",
+        "pagePath": "pages/main/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tabbar/cart_active.png",
+        "iconPath": "images/tabbar/cart.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "images/tabbar/user_active.png",
+        "iconPath": "images/tabbar/user.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
     ]
   },
   "networkTimeout": {

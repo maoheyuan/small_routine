@@ -1,0 +1,89 @@
+/* pages/me/me.wxss */
+
+
+.header{
+
+ display:  flex;
+ background-color: #FF2400;
+}
+
+.user_info{
+  flex: 2;
+  padding: 20rpx;
+  color: #fff;
+
+}
+.user__info__image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 5rpx;
+  vertical-align:middle;
+  
+}
+
+.page_body{
+  padding-top:10rpx; 
+}
+
+.body_list_group{
+
+  padding-bottom: 80rpx;
+  border-bottom:1px solid #eee; 
+}
+.body_list_group_title{
+  display: flex;
+  padding: 20rpx;
+  border-bottom:1px solid #eee; 
+  margin-bottom: 5px;
+}
+
+.body_list_group_title_left{
+  flex: 8;
+  text-align: left;
+  
+}
+
+.body_list_group_title_right{
+  width: 180rpx;
+  text-align: right;
+  
+}
+.body_list_group_body{
+  display: flex;
+  flex-wrap:  wrap;
+}
+.body_list_block{
+  text-align: center;
+  width: 25%;
+}
+
+.body_list_block_image,body_list_block_title{
+
+  width: 100%;
+}
+
+.body_list_row{
+
+  display: flex;
+  padding: 20rpx;
+  border-bottom:1px solid #eee; 
+}
+
+.body_list_row_left{
+ flex: 8;
+  text-align: left;
+
+}
+
+.body_list_row_image{
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align:middle;
+}
+
+.body_list_row_right{
+  width: 180rpx;
+  text-align: right;
+  vertical-align:middle;
+  
+}
