@@ -1,0 +1,92 @@
+
+.page__body__list{
+  display:flex;
+  flex-direction: row;
+  padding: 10rpx;
+  position: relative;
+  border-bottom: 1rpx solid #eee;
+}
+.page__body__list__left{  
+    width: 100rpx;
+    overflow: hidden; 
+    position: relative;
+}
+.page__body__list__left__image{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top:-30rpx;
+  margin-left:-30rpx;  
+  width: 60rpx;
+  height: 60rpx;
+}
+.page__body__list__md{
+  padding: 5px;
+  overflow: hidden;  
+}
+.page__body__list__md__image{
+  width: 320rpx;
+  height: 160rpx;
+  background-color: #eeeeee;
+}
+.page__body__list__right{ 
+  height: 68px;
+  padding-left:5px; 
+}
+.page__body__list__title{
+   font-size:32rpx;
+   padding: 5px;
+}
+.page__body__list__discription{
+  font-size:32rpx;
+  padding: 5rpx;
+  color: #888888;
+}
+
+.page__body__list__tool{
+  padding: 8px;
+}
+.page__body__list_sale_price{
+  display: inline-block;
+  padding-right:8px; 
+  color: #f00;
+  font-size:24rpx;
+}
+
+.page__body__list_cast_price{
+  display: inline-block;
+  padding-right:8px; 
+  font-size:24rpx;
+  color: #888888;
+  text-decoration:line-through;
+}
+.page__body__list__cart{
+  position: absolute;
+  right: 20rpx;
+  bottom: 12rpx;
+  margin: 2px;
+  padding: 0px;
+  border: 1rpx solid #eee;
+  border-radius: 10px;
+}
+.page__body__cart__dec,.page__body__cart__inc{
+    display: inline-block;
+    vertical-align:top;
+    padding: 0 4px;
+    width: 60rpx;
+    height: 60rpx;
+    color: #fff;
+
+}
+
+.page__body__cart__input{
+
+    display: inline-block;
+    width: 40rpx;
+    text-align: center;
+    vertical-align:bottom;
+    font-size:22rpx;
+    height: 60rpx;
+    min-height:60rpx;
+
+}

@@ -1,0 +1,55 @@
+<view class='page_header'>
+
+</view>
+<view class='page__body'>
+
+
+    <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"  src="/images/success_active.png"></image>
+        </view>
+        <view class='page__body__list__md'>
+          <image  class="page__body__list__md__image"style="" src="/images/test/143912755726.jpg"></image>
+        </view>
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔广西冰糖桔广西冰糖桔广西冰糖桔 7斤装</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+               <image  class="page__body__cart__dec"style=""  src="/images/minus-active.png"></image>
+              <input  class='page__body__cart__input' value='1'/>
+            
+               <image  class="page__body__cart__inc"style=""  src="/images/add-active.png"></image>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"  src="/images/success.png"></image>
+        </view>
+        <view class='page__body__list__md'>
+          <image  class="page__body__list__md__image"style="" src="/images/test/143912755726.jpg"></image>
+        </view>
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔广西冰糖桔广西冰糖桔广西冰糖桔 7斤装</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+               <image  class="page__body__cart__dec"style=""  src="/images/minus.png"></image>
+              <input  class='page__body__cart__input' value='1'/>
+            
+               <image  class="page__body__cart__inc"style=""  src="/images/add-active.png"></image>
+            </view>
+        </view>
+    </view>
+
+
+</view>

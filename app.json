@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/main/index",
-    "pages/cart/cart"
+    "pages/cart/cart",
+    "pages/main/index"
+    
   ],
   "window": {
       "backgroundTextStyle": "light",
@@ -20,7 +21,7 @@
         {
           "selectedIconPath": "images/tabBar/cart_active.png",
           "iconPath": "images/tabBar/cart.png",
-          "pagePath": "pages/logs/logs",
+          "pagePath": "pages/cart/cart",
           "text": "购物车"
         },
         {
