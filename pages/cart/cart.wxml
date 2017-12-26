@@ -52,4 +52,37 @@
     </view>
 
 
+    <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"  src="/images/success_active.png"></image>
+        </view>
+        <view class='page__body__list__md'>
+          <image  class="page__body__list__md__image"style="" src="/images/test/143912755726.jpg"></image>
+        </view>
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔广西冰糖桔广西冰糖桔广西冰糖桔 7斤装</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+               <image  class="page__body__cart__dec"style=""  src="/images/minus-active.png"></image>
+              <input  class='page__body__cart__input' value='1'/>
+            
+               <image  class="page__body__cart__inc"style=""  src="/images/add-active.png"></image>
+            </view>
+        </view>
+    </view>
+
+
+
+    <view class='page__cart__tool'>
+      <view class='page_cart_select_all'> 
+        <image  class="page__body__cart__dec"style=""  src="/images/success_active.png"></image>全选
+      </view>
+      <view class='page__cart__count'>合计：<text class='page__cart__count__text'>¥100</text> </view>
+      <view class='page__cart__balance'>结算(2)</view>
+    </view>
+
 </view>
