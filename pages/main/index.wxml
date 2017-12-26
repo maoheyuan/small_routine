@@ -1,20 +1,24 @@
 <view class='page_header'>
 <form>
-  <view class="wxSearch-section">
-    <view class="wxSearch-pancel">
-      <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder="搜索" />
-      <button class="wxSearch-button" bindtap="wxSearchFn" size="mini" plain="true">搜索</button>
+  <view class="search-section">
+    <view class="search-pancel">
+      <input bindinput="searchInput" bindfocus="serchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="search-input" placeholder="搜索" />
+
+    
+         <image class="search-button" src="/images/search/search_active.png"></image>
+      
+        
+    
     </view>
   </view>
 </form>
-
 
   <scroll-view scroll-x="true"  scroll-with-animation="true" class='topbar'>
     <view class='topbar__item'>特价</view>
     <view class='topbar__item'>鲜果</view>
     <view class='topbar__item'>熟食</view>
     <view class='topbar__item'>火锅</view>
-    <view class='topbar__item topbar__item_active'>零食</view>
+    <view class='topbar__item topbar__item__active'>零食</view>
     <view class='topbar__item'>折扣</view>
     <view class='topbar__item'>鲜果</view>
     <view class='topbar__item'>熟食</view>
@@ -23,40 +27,183 @@
 </view>
 
 
-  <scroll-view scroll-y="true" class='page__body'>
+<view class='page__body'>
+
+<swiper  class='page__body__swiper' >
+  
+  <swiper-item>
+     
+  <scroll-view scroll-y="true" class='page__body__scroll'>
 
 
-      <swiper indicator-dots="{{indicatorDots}}"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{imgUrls}}">
-          <swiper-item>
-            <image src="{{item}}" class="slide-image" width="355" height="150"/>
-          </swiper-item>
-        </block>
-      </swiper>
+        <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image" width="355" height="150"/>
+            </swiper-item>
+          </block>
+        </swiper>
 
 
 
-    <view class="page__list ">
-      <view class='list__left'>
-         <image  class="list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
       </view>
 
-      <view class='list__right'>
-          <view class="list__title">广西冰糖桔 7斤装</view>
-          <view class="list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
-          <view class="list__tool">
-            <view class='list_sale_price'>¥100</view>
-            <view class='list_cast_price'>市场价¥00</view>
-          </view>
 
-          <view class='list__cart'>
-            <image class='list_cart__image' src="/images/cart/add_cart_active.png"></image>
-          </view>
+
+
+    
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
       </view>
-    </view>
 
-  </scroll-view>
+      
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+      </view>
+
+      
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+      </view>
+
+      
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+      </view>
+
+      
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+      </view>
+
+      
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
+        </view>
+
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+      </view>
+
+    </scroll-view>
+  </swiper-item>
+
+    <swiper-item>
+     
+      ffffffffffffssssssss
+     
+    </swiper-item>
+  
+</swiper>
+</view>
+
+
+
+ 
 
 
 
