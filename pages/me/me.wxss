@@ -44,9 +44,17 @@
 }
 
 .body_list_group_title_right{
-  width: 180rpx;
+  width: 250rpx;
   text-align: right;
+  vertical-align: middle;
   
+}
+.body_list_group_title_right_image{
+    display: inline-block;
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    line-height:0px;
 }
 .body_list_group_body{
   display: flex;

@@ -11,7 +11,10 @@
  <view class='body_list_group'>
     <view class='body_list_group_title'>
       <text class='body_list_group_title_left'>我的订单</text>
-      <text class='body_list_group_title_right'>全部订单></text>
+      <view class='body_list_group_title_right'>
+        全部订单  
+        <image  class='body_list_group_title_right_image' src="/images/forward-active.png"></image>
+        </view>
     </view>
 
     <view class='body_list_group_body'>
@@ -109,10 +112,6 @@
     </view>
 
   </view>
-
-
-
-
 
 
 
