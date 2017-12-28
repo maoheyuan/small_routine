@@ -23,11 +23,12 @@
 <view class='division'></view>
 <scroll-view scroll-y class='body_list_scroll'>
 
+
+<navigator url="/pages/order/detail" open-type="navigate">
   <view class='order_item'>
     <view class='order_item_header'>
       <view class='order_item_header_left'>2017-12-10 22:15</view>
       <view class='order_item_header_right'>已收货</view>
-    
     </view>
 
     <view class='order_item_body'>
@@ -58,6 +59,7 @@
     
     </view>
   </view>
+  </navigator>
   <view class='division'></view>
 
     <view class='order_item'>

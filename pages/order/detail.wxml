@@ -1,0 +1,135 @@
+<view class='header'>
+  <view class='header_left'>
+    <view class='header_left_status'>已收货</view>
+    <view class='header_left_express'>物流信息：运单已送达成功></view>
+  </view>
+  <view class='header_right'>
+     <image  class="header_right_image" style="" src="/images/test/143912755726.jpg"></image> 
+  </view>
+</view>
+
+
+<view class='order_user_info'>
+    <view class='order_user_info_left'>
+      <image  class="order_user_info_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+    </view>
+    <view class='order_user_info_right'>
+      <view class='order_user_info_right_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+
+      <view class='order_user_info_right_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+</view>
+
+ <view class='division'></view>
+
+
+<navigator url="/pages/order/detail" open-type="navigate">
+  <view class='order_item'>
+    <view class='order_item_body'>
+        <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+    </view>
+  </view>
+
+    <view class='order_item'>
+    <view class='order_item_body'>
+        <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+    </view>
+  </view>
+
+
+
+
+
+  </navigator>
+
+ <view class='division'></view>
+  <view class='order_info_row'>
+    <view class='order_info_row_left'>订单金额</view>
+    <view class='order_info_row_right'>¥899</view>
+  </view>
+
+  <view class='order_info_row'>
+    <view class='order_info_row_left'>订单金额</view>
+    <view class='order_info_row_right'>¥899</view>
+  </view>
+
+    <view class='order_info_row'>
+    <view class='order_info_row_left'>订单金额</view>
+    <view class='order_info_row_right'>¥899</view>
+  </view>
+
+
+    <view class='order_info_row order_info_row_active'>
+    <view class='order_info_row_left'>优惠</view>
+    <view class='order_info_row_right'>¥899</view>
+  </view>
+
+    <view class='order_info_row order_info_row_footer'>
+    <view class='order_info_row_left'>实付金额</view>
+    <view class='order_info_row_right'>¥899</view>
+  </view>
+
+<view class='division'></view>
+
+
+ <view class='division'></view>
+  <view class='order_info_row'>
+    <view class='order_info_row_left'>下单时间</view>
+    <view class='order_info_row_right'>2017-12-25 11:25</view>
+  </view>
+
+  <view class='order_info_row'>
+    <view class='order_info_row_left'>订单号</view>
+    <view class='order_info_row_right'>P2548782211222</view>
+  </view>
+
+    <view class='order_info_row'>
+    <view class='order_info_row_left'>收货时间</view>
+    <view class='order_info_row_right'>2017-12-29 11:25</view>
+  </view>
+
+
+    <view class='order_info_row '>
+    <view class='order_info_row_left'>发票类型</view>
+    <view class='order_info_row_right'>纸质类型</view>
+  </view>
+
+    <view class='order_info_row '>
+    <view class='order_info_row_left'>发票抬头</view>
+    <view class='order_info_row_right'>个人</view>
+  </view>
