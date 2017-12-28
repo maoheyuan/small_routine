@@ -11,10 +11,13 @@
  <view class='body_list_group'>
     <view class='body_list_group_title'>
       <text class='body_list_group_title_left'>我的订单</text>
-      <view class='body_list_group_title_right'>
-        全部订单  
-        <image  class='body_list_group_title_right_image' src="/images/forward-active.png"></image>
+
+      <navigator url="/pages/order/order" open-type="navigate">
+        <view class='body_list_group_title_right'>
+          全部订单  
+          <image  class='body_list_group_title_right_image' src="/images/forward-active.png"></image>
         </view>
+      </navigator>
     </view>
 
     <view class='body_list_group_body'>
@@ -71,7 +74,7 @@
       <view class='body_list_row_left'>
         <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image>
       </view>
-      <view class='body_list_row_md'>钱包</view>
+      <view class='body_list_row_md'>明细</view>
       <view class='body_list_row_right'> 
         <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
       </view>

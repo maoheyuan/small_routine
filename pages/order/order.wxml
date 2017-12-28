@@ -1,0 +1,119 @@
+
+
+ <view class='page_nav'>
+    
+    <view class='page_nav_item'>
+      <text class='page_nav_item_text'>全部</text>
+      
+    </view>
+
+    <view class='page_nav_item'>
+      <text class='page_nav_item_text'>待付款</text>
+      
+    </view>
+
+    <view class='page_nav_item '>
+      <text class='page_nav_item_text page_nav_item_active'>待收货</text>
+    </view>
+
+    <view class='page_nav_item'>
+      <text class='page_nav_item_text'>待评价</text> 
+    </view>
+  </view>
+<view class='division'></view>
+<scroll-view scroll-y class='body_list_scroll'>
+
+  <view class='order_item'>
+    <view class='order_item_header'>
+      <view class='order_item_header_left'>2017-12-10 22:15</view>
+      <view class='order_item_header_right'>已收货</view>
+    
+    </view>
+
+    <view class='order_item_body'>
+        <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+    </view>
+    <view class='order_item_footer'>
+        <view class='order_item_footer_total'>共1件商品 合计：<text class='order_item_footer_money'>¥899</text></view>
+        <view class='order_item_footer_tool'>
+          <button class='order_item_footer_tool_button'>申请售后</button>
+          <button class='order_item_footer_tool_button order_item_footer_tool_button_acitve'> 再次购买</button>
+          <button class='order_item_footer_tool_button order_item_footer_tool_button_acitve'>评价晒单</button>
+        </view>
+    
+    </view>
+  </view>
+  <view class='division'></view>
+
+    <view class='order_item'>
+    <view class='order_item_header'>
+      <view class='order_item_header_left'>2017-12-10 22:15</view>
+      <view class='order_item_header_right'>已收货</view>
+    
+    </view>
+
+    <view class='order_item_body'>
+        <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+                <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+    </view>
+    <view class='order_item_footer'>
+        <view class='order_item_footer_total'>共1件商品 合计：<text class='order_item_footer_money'>¥899</text></view>
+        <view class='order_item_footer_tool'>
+          <button class='order_item_footer_tool_button'>申请售后</button>
+          <button class='order_item_footer_tool_button order_item_footer_tool_button_acitve'> 再次购买</button>
+          <button class='order_item_footer_tool_button order_item_footer_tool_button_acitve'>评价晒单</button>
+        </view>
+    
+    </view>
+  </view>
+  <view class='division'></view>
+
+</scroll-view>
+
+
+
