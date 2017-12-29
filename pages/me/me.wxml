@@ -84,7 +84,7 @@
 
 
   <view class='body_list_group'>
-      <navigator url="/pages/order/order" open-type="navigate">
+      <navigator url="/pages/card/card" open-type="navigate">
         <view class='body_list_row'>
           <view class='body_list_row_left'>
             <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 

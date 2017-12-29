@@ -1,0 +1,54 @@
+.user_card_item{
+
+  display:  flex;
+  justify-content:center;
+  align-items: center;
+  
+  border:1px solid #eee; 
+
+  margin:10rpx 24rpx;
+  border-radius: 2rpx;
+  
+   
+}
+.user_card_item_active{
+  border:1px solid #f00;
+  background-color: #fff;
+  color: #f00;
+ 
+}
+.user_card_item_noactive{
+
+  border:1px solid #888888;
+  background-color: #eee;
+  color: #000;
+}
+.user_card_item_left{
+
+  font-size: 46rpx;
+  width: 30%;
+  text-align: center;
+  padding: 25rpx;
+
+}
+.user_card_item_right{
+
+  width: 70%;
+   border-left: 1px solid #f00;
+   padding: 25rpx;
+}
+.user_card_item_right_noactive{
+   border-left: 1px solid  #888888;
+ 
+}
+
+.user_card_item_right_title{
+    
+    padding-bottom:18rpx;
+    /* 内内显示在一行不换行*/
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;  
+    
+}
+

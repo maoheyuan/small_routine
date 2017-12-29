@@ -1,0 +1,99 @@
+<view class='user_card_item user_card_item_active'>
+    <view class='user_card_item_left '>
+     ¥899 
+    </view>
+
+    <view class='user_card_item_right '>
+      <view class='user_card_item_right_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_card_item_right_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+</view>
+
+<view class='user_card_item user_card_item_noactive'>
+    <view class='user_card_item_left '>
+     ¥899 
+    </view>
+
+    <view class='user_card_item_right  user_card_item_right_noactive'>
+      <view class='user_card_item_right_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_card_item_right_content '>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+</view>
+
+
+<view class='user_card_item user_card_item_noactive'>
+    <view class='user_card_item_left '>
+     ¥899 
+    </view>
+
+    <view class='user_card_item_right  user_card_item_right_noactive'>
+      <view class='user_card_item_right_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_card_item_right_content '>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+</view>
+
+
+
+<view class='user_card_item user_card_item_noactive'>
+    <view class='user_card_item_left '>
+     ¥899 
+    </view>
+
+    <view class='user_card_item_right  user_card_item_right_noactive'>
+      <view class='user_card_item_right_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_card_item_right_content '>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+</view>
+
+
+
+<view class='user_card_item user_card_item_noactive'>
+    <view class='user_card_item_left '>
+     ¥899 
+    </view>
+
+    <view class='user_card_item_right  user_card_item_right_noactive'>
+      <view class='user_card_item_right_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_card_item_right_content '>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+</view>
+
+
+
+<view class='user_card_item user_card_item_noactive'>
+    <view class='user_card_item_left '>
+     ¥899 
+    </view>
+
+    <view class='user_card_item_right  user_card_item_right_noactive'>
+      <view class='user_card_item_right_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_card_item_right_content '>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+</view>
+
+
+
