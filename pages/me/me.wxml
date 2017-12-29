@@ -106,7 +106,7 @@
           </view>
         </view>
       </navigator>
-
+  <navigator url="/pages/version/version" open-type="navigate">
     <view class='body_list_row'>
       <view class='body_list_row_left'>
         <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 
@@ -116,7 +116,7 @@
         <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
       </view>
     </view>
-
+  </navigator>
   </view>
 
 

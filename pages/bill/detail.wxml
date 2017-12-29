@@ -1,2 +1,32 @@
-<!--pages/bill/detail.wxml-->
-<text>pages/bill/detail.wxml</text>
+ <view class='division'></view>
+  <view class='order_info_row'>
+    <view class='order_info_row_left'>支付标题</view>
+    <view class='order_info_row_right'>订单支付</view>
+  </view>
+
+  <view class='order_info_row'>
+    <view class='order_info_row_left'>支付时间</view>
+    <view class='order_info_row_right'>2017-12-25 11:25</view>
+  </view>
+
+    <view class='order_info_row'>
+    <view class='order_info_row_left'>支付金额</view>
+    <view class='order_info_row_right'>2000</view>
+  </view>
+
+
+    <view class='order_info_row '>
+    <view class='order_info_row_left'>支付流水号</view>
+    <view class='order_info_row_right'>20174582154700</view>
+  </view>
+
+    <view class='order_info_row '>
+    <view class='order_info_row_left'>支付后账户余额</view>
+    <view class='order_info_row_right'>100000</view>
+  </view>
+
+  <view class='mark_title'>备注说明：</view>
+  <view  class='mark_textarea'>
+    订单号：2017458266522782
+  </view>
+

@@ -1,1 +1,35 @@
-/* pages/bill/detail.wxss */
+.order_info_row{
+
+    display: flex;
+  flex-wrap:  wrap;
+   justify-content:space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+ 
+}
+.order_info_row_left{
+  padding: 24rpx;
+   font-size: 32rpx;
+
+}
+
+.order_info_row_right{
+  padding: 24rpx;
+   font-size: 32rpx;
+
+}
+
+.order_info_row_active{
+
+   border-bottom: 1px solid #eee;
+}
+
+.mark_title,.mark_textarea{
+
+ padding: 24rpx;
+ font-size: 32rpx;
+
+}
+.mark_textarea{
+   border-bottom: 1px solid #eee;
+}
