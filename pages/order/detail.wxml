@@ -127,6 +127,7 @@
     <view class='order_info_row_right'>个人</view>
   </view>
 
+  <view class='order_info_row_footer'></view>
   <view class='order_item_footer'>
     
       <button class='order_item_footer_tool_button'>申请售后</button>
