@@ -1,0 +1,48 @@
+ <view class='division'></view>
+ <view class='row_title'>1.新增团购商品操作如下</view>
+  <view class='row_info'>
+    <view class='row_info_left'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+    <view class='row_info_right'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+  </view>
+
+   <view class='row_title'>1.新增团购商品操作如下</view>
+  <view class='row_info'>
+    <view class='row_info_left'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+    <view class='row_info_right'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+  </view>
+
+ <view class='row_title'>1.新增团购商品操作如下</view>
+  <view class='row_info'>
+    <view class='row_info_left'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+    <view class='row_info_right'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+  </view>
+
+ <view class='row_title'>1.新增团购商品操作如下</view>
+  <view class='row_info'>
+    <view class='row_info_left'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+    <view class='row_info_right'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+  </view>
+
+ <view class='row_title'>1.新增团购商品操作如下</view>
+  <view class='row_info'>
+    <view class='row_info_left'>
+      <image  class="row_info_image"style="" src="/images/test/143912755726.jpg"></image>
+    </view>
+
+  </view>

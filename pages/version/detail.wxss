@@ -1,0 +1,44 @@
+.row_title{
+   padding: 24rpx;
+     font-size: 32rpx;
+}
+.row_info{
+
+    display: flex;
+  flex-wrap:  wrap;
+   justify-content:space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+ 
+}
+.row_info_left{
+  padding: 0rpx;
+   font-size: 32rpx;
+   width: 50%;
+   box-sizing:border-box;
+   border-right: 1px solid #eee;
+
+}
+
+.row_info_right{
+  padding: 0rpx;
+  font-size: 32rpx;
+  width: 50%;
+   box-sizing:border-box;
+}
+
+.row_info_image{
+  width: 320rpx;
+  height: 568rpx;
+  
+}
+.mark_title,.mark_textarea{
+
+ padding: 24rpx;
+ font-size: 32rpx;
+
+}
+.mark_textarea{
+   border-bottom: 1px solid #eee;
+}
