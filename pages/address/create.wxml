@@ -1,0 +1,38 @@
+<view class='division'></view>
+<view class='address_row'>
+ <text class='address_row_title'>收货人：</text>
+ <input value='毛何远'></input>
+</view>
+
+<view class='address_row'>
+ <text class='address_row_title'>手机号码：</text>
+ <input value='13554820565'></input>
+</view>
+
+ <view class='division'></view>
+<view class='address_row'>
+ <text class='address_row_title'>所在地区：</text>
+ <input value='广东 深圳 龙岗 六约社区'></input>
+</view>
+
+<view class='address_row'>
+ <text class='address_row_title'>详细地址：</text>
+ <input value='永宁4巷8号504'></input>
+</view>
+
+ <view class='division'></view>
+<view class='address_row'>
+ <text class='address_row_title'>设置为默认：</text>
+ <view class='address_row_checkbox'>
+    <checkbox value="1" checked="checked" />
+ </view>
+
+
+</view>
+
+ <view class='division'></view>
+<view>
+<button class='address_row_submit' form-type="submit"  hover-class="other-button-hover"> 保存 </button>
+</view>
+
+

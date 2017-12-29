@@ -83,26 +83,28 @@
 
 
   <view class='body_list_group'>
-    <view class='body_list_row'>
-      <view class='body_list_row_left'>
-        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 
-      </view>
-        <view class='body_list_row_md'>卡卷</view>
-      <view class='body_list_row_right'> 
-        <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
-      </view>
-    </view>
-
-      <view class='body_list_row'>
-      <view class='body_list_row_left'>
-        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 
-      </view>
-        <view class='body_list_row_md'>地址</view>
-      <view class='body_list_row_right'>
-        <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
-      </view>
-    </view>
-
+      <navigator url="/pages/order/order" open-type="navigate">
+        <view class='body_list_row'>
+          <view class='body_list_row_left'>
+            <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+            <view class='body_list_row_md'>卡卷</view>
+          <view class='body_list_row_right'> 
+            <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
+          </view>
+        </view>
+      </navigator>
+      <navigator url="/pages/me/address" open-type="navigate">
+        <view class='body_list_row'>
+          <view class='body_list_row_left'>
+            <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='body_list_row_md'>地址</view>
+          <view class='body_list_row_right'>
+            <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
+          </view>
+        </view>
+      </navigator>
 
     <view class='body_list_row'>
       <view class='body_list_row_left'>

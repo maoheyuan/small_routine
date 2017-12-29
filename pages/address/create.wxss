@@ -1,0 +1,35 @@
+/* pages/address/create.wxss */
+.address_row{
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 20rpx 40rpx;
+  font-size: 32rpx;
+}
+
+.address_row_title{
+  
+  font-size: 28rpx;
+  color: #888888;
+}
+
+.division{
+  height: 8rpx;
+  background-color: #eee;
+}
+.address_row_submit{
+
+  width: 80%;
+  background-color: #1296db;
+  padding: 10rpx;
+  margin-top: 40rpx;
+  line-height:60rpx;
+  color: #fff;
+}
+.address_row_checkbox{
+  flex: 1;
+  text-align: right;
+
+}

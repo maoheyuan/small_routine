@@ -1,0 +1,162 @@
+<navigator url="/pages/address/create" open-type="navigate">
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+      <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+
+<view class='user_address_item'>
+    
+    <view class='user_address_item_left'>
+      <view class='user_address_item_left_name_or_mobile'>
+        <text>谭春柳</text>
+        <text>13480913245</text>
+      </view>
+      <view class='user_address_item_left_address'>
+            <text>广东 深圳市 龙岗区 横岗街道 牛始埔 永宁八巷30号 252</text>
+      </view>
+    </view>
+
+    <view class='user_address_item_right'>
+     <image  class="user_address_item_right_image" src="/images/forward-active.png"></image>
+     
+    </view>
+</view>
+
+
+<view class='user_add_address'>
+  +
+</view>
