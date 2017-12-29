@@ -69,16 +69,17 @@
        <view class='body_list_row_md'>钱包</view>
       <view class='body_list_row_right'>100</view>
     </view>
-
-    <view class='body_list_row'>
-      <view class='body_list_row_left'>
-        <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image>
+    <navigator url="/pages/bill/bill" open-type="navigate">
+      <view class='body_list_row'>
+        <view class='body_list_row_left'>
+          <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image>
+        </view>
+        <view class='body_list_row_md'>明细</view>
+        <view class='body_list_row_right'> 
+          <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
+        </view>
       </view>
-      <view class='body_list_row_md'>明细</view>
-      <view class='body_list_row_right'> 
-        <image  class='body_list_row_right_image' src="/images/forward-active.png"></image>
-      </view>
-    </view>
+    </navigator>
   </view>
 
 
@@ -94,7 +95,7 @@
           </view>
         </view>
       </navigator>
-      <navigator url="/pages/me/address" open-type="navigate">
+      <navigator url="/pages/address/address" open-type="navigate">
         <view class='body_list_row'>
           <view class='body_list_row_left'>
             <image  class="body_list_row_image"style="" src="/images/test/143912755726.jpg"></image> 

@@ -1,0 +1,179 @@
+<navigator url="/pages/bill/detail" open-type="navigate">
+<view class='user_bill_item'>
+
+    <view class='user_bill_item_row  item_row_first'>
+      <view class='user_bill_item_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_bill_item_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+
+    <view class='user_bill_item_row'>
+      <view class='user_bill_item_title'>
+        剩余金额
+      
+      </view>
+      <view class='user_bill_item_content'>
+            <text>¥10000</text>
+      </view>
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_money'>
+     -¥899 
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_end'>
+      <image  class="user_bill_item_row_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+ <navigator url="/pages/bill/detail" open-type="navigate">
+<view class='user_bill_item'>
+
+    <view class='user_bill_item_row  item_row_first'>
+      <view class='user_bill_item_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_bill_item_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+
+    <view class='user_bill_item_row'>
+      <view class='user_bill_item_title'>
+        剩余金额
+      
+      </view>
+      <view class='user_bill_item_content'>
+            <text>¥10000</text>
+      </view>
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_money'>
+     -¥899 
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_end'>
+      <image  class="user_bill_item_row_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+
+ <navigator url="/pages/bill/detail" open-type="navigate">
+<view class='user_bill_item'>
+
+    <view class='user_bill_item_row  item_row_first'>
+      <view class='user_bill_item_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_bill_item_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+
+    <view class='user_bill_item_row'>
+      <view class='user_bill_item_title'>
+        剩余金额
+      
+      </view>
+      <view class='user_bill_item_content'>
+            <text>¥10000</text>
+      </view>
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_money'>
+     -¥899 
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_end'>
+      <image  class="user_bill_item_row_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+
+
+ <navigator url="/pages/bill/detail" open-type="navigate">
+<view class='user_bill_item'>
+
+    <view class='user_bill_item_row  item_row_first'>
+      <view class='user_bill_item_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_bill_item_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+
+    <view class='user_bill_item_row'>
+      <view class='user_bill_item_title'>
+        剩余金额
+      
+      </view>
+      <view class='user_bill_item_content'>
+            <text>¥10000</text>
+      </view>
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_money'>
+     -¥899 
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_end'>
+      <image  class="user_bill_item_row_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+ <navigator url="/pages/bill/detail" open-type="navigate">
+<view class='user_bill_item'>
+
+    <view class='user_bill_item_row  item_row_first'>
+      <view class='user_bill_item_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_bill_item_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+
+    <view class='user_bill_item_row'>
+      <view class='user_bill_item_title'>
+        剩余金额
+      
+      </view>
+      <view class='user_bill_item_content'>
+            <text>¥10000</text>
+      </view>
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_money'>
+     -¥899 
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_end'>
+      <image  class="user_bill_item_row_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+
+ <navigator url="/pages/bill/detail" open-type="navigate">
+<view class='user_bill_item'>
+
+    <view class='user_bill_item_row  item_row_first'>
+      <view class='user_bill_item_title'>
+       <text class='ellipsis'>订单支付  dsfsaf fsfsdfdsfdsfdsfdsfsdf fdsf sdfsdfdsf</text>
+      </view>
+      <view class='user_bill_item_content'>
+            <text class=''>2017-12-26 06:51 </text>
+      </view>
+    </view>
+
+    <view class='user_bill_item_row'>
+      <view class='user_bill_item_title'>
+        剩余金额
+      
+      </view>
+      <view class='user_bill_item_content'>
+            <text>¥10000</text>
+      </view>
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_money'>
+     -¥899 
+    </view>
+    <view class='user_bill_item_row user_bill_item_row_end'>
+      <image  class="user_bill_item_row_image" src="/images/forward-active.png"></image>
+    </view>
+</view>
+ </navigator>
+

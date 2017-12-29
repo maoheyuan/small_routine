@@ -156,7 +156,8 @@
     </view>
 </view>
 
-
+<navigator url="/pages/address/create" open-type="navigate">
 <view class='user_add_address'>
   +
 </view>
+ </navigator>

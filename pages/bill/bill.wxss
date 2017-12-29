@@ -1,0 +1,51 @@
+.user_bill_item{
+
+  display:  flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 24rpx;
+  border-bottom:1px solid #eee; 
+  font-size: 28rpx;
+}
+.user_bill_item_row{
+ padding-right: 20rpx;
+}
+.item_row_first{
+  width: 50%;
+}
+.user_bill_item_title{
+    padding-bottom:18rpx;
+    /* 内内显示在一行不换行*/
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;  
+    
+}
+
+.user_bill_item_content{
+ 
+  color: #888888;
+  padding-bottom:10rpx; 
+   font-size: 28rpx;
+}
+
+.division{
+  height: 8rpx;
+  background-color: #eee;
+}
+
+.user_bill_item_row_money{
+
+   font-size: 38rpx;
+}
+.user_bill_item_row_image{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 0rpx;
+  margin: 0rpx;
+
+}
+.user_bill_item_row_end{
+  width: 40rpx;
+  padding: 0rpx;
+}
