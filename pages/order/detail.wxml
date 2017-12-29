@@ -27,8 +27,6 @@
 
  <view class='division'></view>
 
-
-<navigator url="/pages/order/detail" open-type="navigate">
   <view class='order_item'>
     <view class='order_item_body'>
         <view class='order_goods_item'>
@@ -72,11 +70,6 @@
   </view>
 
 
-
-
-
-  </navigator>
-
  <view class='division'></view>
   <view class='order_info_row'>
     <view class='order_info_row_left'>订单金额</view>
@@ -84,19 +77,19 @@
   </view>
 
   <view class='order_info_row'>
-    <view class='order_info_row_left'>订单金额</view>
-    <view class='order_info_row_right'>¥899</view>
+    <view class='order_info_row_left'>券卡支付</view>
+    <view class='order_info_row_right'>-¥100</view>
   </view>
 
     <view class='order_info_row'>
-    <view class='order_info_row_left'>订单金额</view>
-    <view class='order_info_row_right'>¥899</view>
+    <view class='order_info_row_left'>优惠</view>
+    <view class='order_info_row_right'>-¥100</view>
   </view>
 
 
     <view class='order_info_row order_info_row_active'>
-    <view class='order_info_row_left'>优惠</view>
-    <view class='order_info_row_right'>¥899</view>
+    <view class='order_info_row_left'>运费</view>
+    <view class='order_info_row_right'>¥0.00</view>
   </view>
 
     <view class='order_info_row order_info_row_footer'>
@@ -133,3 +126,11 @@
     <view class='order_info_row_left'>发票抬头</view>
     <view class='order_info_row_right'>个人</view>
   </view>
+
+  <view class='order_item_footer'>
+    
+      <button class='order_item_footer_tool_button'>申请售后</button>
+      <button class='order_item_footer_tool_button order_item_footer_tool_button_acitve'> 再次购买</button>
+      <button class='order_item_footer_tool_button order_item_footer_tool_button_acitve'>评价晒单</button>
+  </view>
+
