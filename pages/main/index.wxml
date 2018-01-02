@@ -1,18 +1,4 @@
 <view class='page_header'>
-<form>
-  <view class="search-section">
-    <view class="search-pancel">
-      <input bindinput="searchInput" bindfocus="serchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="search-input" placeholder="搜索" />
-
-    
-         <image class="search-button" src="/images/search/search_active.png"></image>
-      
-        
-    
-    </view>
-  </view>
-</form>
-
   <scroll-view scroll-x="true"  scroll-with-animation="true" class='topbar'>
     <view class='topbar__item'>特价</view>
     <view class='topbar__item'>鲜果</view>

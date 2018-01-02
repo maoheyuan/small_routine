@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/cashier/cashier",
     "pages/me/me",
     "pages/cart/cart",
     "pages/main/index",
@@ -14,8 +13,9 @@
     "pages/version/version",
     "pages/version/detail",
     "pages/card/card",
-    "pages/goods/goods"
-    
+    "pages/goods/goods",
+    "pages/cashier/cashier",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,6 +31,13 @@
         "pagePath": "pages/main/index",
         "text": "首页"
       },
+        {
+          "selectedIconPath": "images/tabbar/search_active.png",
+          "iconPath": "images/tabbar/search.png",
+          "pagePath": "pages/search/search",
+          "text": "搜索"
+        },
+
       {
         "selectedIconPath": "images/tabbar/cart_active.png",
         "iconPath": "images/tabbar/cart.png",

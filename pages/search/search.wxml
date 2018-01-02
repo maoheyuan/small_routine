@@ -1,0 +1,63 @@
+<form>
+  <view class="search-section">
+    <view class="search-pancel">
+      <input bindinput="searchInput" bindfocus="serchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="search-input" placeholder="搜索" />
+
+    
+         <image class="search-button" src="/images/search/search_active.png"></image>
+      
+        
+    
+    </view>
+  </view>
+</form>
+
+
+<navigator url="/pages/goods/goods" open-type="navigate">
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+                    <image  class="page__body__list__left__image"style=""  src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        </view>
+
+        
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+       
+      </view>
+
+ </navigator>
+
+<navigator url="/pages/goods/goods" open-type="navigate">
+      <view class="page__body__list ">
+        <view class='page__body__list__left'>
+          <image  class="page__body__list__left__image"style=""  src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        </view>
+
+        
+        <view class='page__body__list__right'>
+            <view class="page__body__list__title">广西冰糖桔 7斤装</view>
+            <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
+            <view class="page__body__list__tool">
+              <view class='page__body__list_sale_price'>¥100</view>
+              <view class='page__body__list_cast_price'>市场价¥00</view>
+            </view>
+
+            <view class='page__body__list__cart'>
+              <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
+            </view>
+        </view>
+       
+      </view>
+
+ </navigator>
+
