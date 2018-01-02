@@ -46,12 +46,13 @@
         </swiper>
 
 
-
+<navigator url="/pages/goods/goods" open-type="navigate">
       <view class="page__body__list ">
         <view class='page__body__list__left'>
           <image  class="page__body__list__left__image"style="" mode="{{item.mode}}" src="{{src}}"></image>
         </view>
 
+        
         <view class='page__body__list__right'>
             <view class="page__body__list__title">广西冰糖桔 7斤装</view>
             <view class="page__body__list__discription">广西冰糖桔 好吃，好吃，还是好吃</view>
@@ -64,9 +65,10 @@
               <image class='page__body__list_cart__image' src="/images/cart/add_cart_active.png"></image>
             </view>
         </view>
+       
       </view>
 
-
+ </navigator>
 
 
     

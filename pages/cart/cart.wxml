@@ -82,7 +82,9 @@
         <image  class="page__body__cart__dec"style=""  src="/images/success_active.png"></image>全选
       </view>
       <view class='page__cart__count'>合计：<text class='page__cart__count__text'>¥100</text> </view>
+      <navigator url="/pages/cashier/cashier" open-type="navigate">
       <view class='page__cart__balance'>结算(2)</view>
+      </navigator>
     </view>
 
 </view>

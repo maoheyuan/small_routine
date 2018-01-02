@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/goods/goods",
+    "pages/cashier/cashier",
     "pages/me/me",
     "pages/cart/cart",
     "pages/main/index",
@@ -13,7 +13,8 @@
     "pages/bill/detail",
     "pages/version/version",
     "pages/version/detail",
-    "pages/card/card"
+    "pages/card/card",
+    "pages/goods/goods"
     
   ],
   "window": {
