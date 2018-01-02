@@ -1,0 +1,109 @@
+<scroll-view scroll-y class='body_list_scroll'>
+
+
+  <view class='address'>
+    <view class='address_title'>收货/自提信息</view>
+    <view class='address_body'>
+      <view class='address_body_left'>请选择收货地址</view>
+      <view class='address_body_right'>
+         <image  class="address_body_right_more" style="" src="/images/test/143912755726.jpg"></image> 
+      </view>
+    </view>
+  </view>
+
+  <view class='delivery'>
+    <view class='delivery_title'>配送方式</view>
+
+    <view class='delivery_body'>
+      送货上门
+    </view>
+  </view>
+
+
+  <view class='time'>
+      <view class='time_title'>配送时段</view>
+      <view class='time_body'>2017-12-11 14:58前</view>
+  </view>
+
+
+  
+  <view class='order_item_body'>
+        <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+                <view class='order_goods_item'>
+          <view class='order_goods_item_left'>
+            <image  class="order_goods_item_left_image" style="" src="/images/test/143912755726.jpg"></image> 
+          </view>
+          <view class='order_goods_item_md'>
+           <view class='order_goods_item_md_title'>红米4X 3GB+32GB</view>
+           
+            <view class='order_goods_item_md_unit'>香槟金32G</view>
+            
+          </view>
+          <view class='order_goods_item_right'>
+            
+            <view class='order_goods_item_right_money'>¥899</view>
+            <view class='order_goods_item_right_num'>x1</view>
+          </view>
+        </view>
+    </view>
+
+
+
+
+    <view class='mark'>
+      <view class='mark_title'>备注信息</view>
+      <view class='mark_body'>
+      <textarea class='textarea'>fsfafsfa
+      </textarea>
+      </view>
+    </view>
+
+
+
+
+    <view class='freight'>
+      <view class='freight_title'>运费信息</view>
+      <view class='freight_body'>¥5.00</view>
+    </view>
+    <view class='coupon'>
+      <view class='coupon_title'>商品金额</view>
+      <view class='coupon_body'>¥5.00</view>
+    </view>
+
+    <view class='coupon'>
+      <view class='coupon_title'>优惠券</view>
+      <view class='coupon_body'>¥5.00</view>
+    </view>
+    <view class='coupon'>
+      <view class='coupon_title'>实付金额</view>
+      <view class='coupon_body'>¥5.00</view>
+    </view>
+
+
+</scroll-view>
+
+<view class='tool'>
+  <view class='tool_left'>
+    实付款¥5.00
+  </view>
+  <view class='tool_right'>提交订单</view>
+</view>
+
+
+
+

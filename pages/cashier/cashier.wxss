@@ -1,0 +1,177 @@
+
+
+.body_list_scroll{
+
+  position: absolute;
+  top:0rpx;
+  left: 0rpx;
+  bottom: 100rpx;
+
+}
+.delivery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 32rpx;
+  padding: 25rpx;
+  border-bottom:1px solid #eee;
+}
+.delivery_title{
+ font-size: 32rpx;
+
+}
+.delivery_body_row{
+
+}
+
+.delivery_body_row_icon{
+
+ width: 40rpx;
+  height: 40rpx;
+  padding: 25rpx;
+}
+.delivery_body_row_left{
+   font-size: 32rpx;
+}
+.address{
+  font-size: 32rpx;
+ 
+  border-bottom:1px solid #eee;
+}
+.address_body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.address_title,.address_body{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+}
+.address_body{
+  padding-bottom: 20rpx;
+}
+.address_body_right_more{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+
+
+.time,.freight,.coupon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 32rpx;
+  padding: 25rpx;
+  border-bottom:1px solid #eee;
+
+}
+.time_body{
+  
+  color: #f00;
+}
+
+
+.order_goods_item{
+
+  display: flex;
+  flex-wrap:  wrap;
+   justify-content:center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.order_goods_item_left{
+
+}
+.order_goods_item_left_image{
+
+  width: 140rpx;
+  height: 140rpx;
+  padding: 10rpx;
+}
+.order_goods_item_md{
+  padding-left: 20rpx;
+}
+.order_goods_item_md_title{
+  padding: 10rpx;
+}
+.order_goods_item_md_unit{
+  padding: 20rpx;
+  color: #888888;
+}
+
+.order_goods_item_right{
+  text-align: right;
+  padding: 20rpx;
+}
+
+.order_goods_item_right_money{
+  padding: 10rpx;
+}
+.order_goods_item_right_num{
+   padding: 20rpx;
+  color: #888888;
+}
+
+
+.division{
+  height: 8rpx;
+  background-color: #eee;
+}
+
+.mark{
+  font-size: 32rpx;
+    padding-top: 20rpx;
+  padding-left: 20rpx;
+
+}
+.mark_title{
+
+  font-size: 32rpx;
+
+}
+.mark_body{
+
+}
+
+.textarea{
+  border: 1px solid #eee;
+  height: 100rpx;
+  width: 98%;
+  margin-top: 20rpx;
+}
+
+
+.tool{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-wrap:  wrap;
+  position: fixed;
+  bottom: 0rpx;
+  left:0rpx;
+  right: 0rpx;
+  background-color: #fff;
+  border-top:1px solid #eee; 
+
+}
+.tool_left{
+
+  flex: 1;
+  padding: 20rpx;
+  text-align: center;
+  color: #f00;
+}
+.tool_right{
+  flex: 1;
+   padding: 20rpx;
+   background-color: #f00;
+   text-align: center;
+   color: #fff;
+}
