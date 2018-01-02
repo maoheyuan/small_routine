@@ -1,0 +1,36 @@
+<view >
+<swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='header'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+</view>
+
+<view class='title'>
+  广西沙滩桔,不打药，好吃得不得了
+</view>
+
+<view class='price_tool'>
+  <view class='sale_row'>售价：<text class='sale_money'>¥500</text></view>
+  <view class='cost_row'>原价：<text class='cost_money'>¥1000</text></view>
+  <view class='unit_row'>规格：<text class='sale_unit'>7kg</text></view>
+</view>
+<view  class='content'>
+  <image class="content_image" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  <image class="content_image" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+  <image class="content_image" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+
+<view class='tool'>
+  <view class='tool_left'>
+    <image class="" src="/images/cart/add_cart_active.png"></image>
+  </view>
+  <view class='tool_md'>¥1000/7kg</view>
+  <view class='tool_right'>加入购物车</view>
+
+</view>
+
